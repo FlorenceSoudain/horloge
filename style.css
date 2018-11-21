@@ -27,41 +27,38 @@ h1 {
 #centre {
     border-radius: 50%;
     background: black;
-    width: 8%;
-    height: 8%;
+    position: absolute;
+    top: 45%;
+    width: 50px;
+    height: 50px;
     z-index: 1;
 }
 #heure {
     background: darkcyan;
     height: 16%;
-    left: 50%;
+    left: 51%;
     position: absolute;
-    top: 30%;
+    top: 31%;
     width: 2%;
     transform-origin: bottom left;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
 }
 #minute {
     background: black;
     height: 30%;
     left: 50.5%;
     position: absolute;
-    top: 18%;
+    top: 19%;
     width: 1%;
     transform-origin: bottom left;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-
+    border-radius: 10px;
 }
 #seconde {
     background: black;
     height: 30%;
     left: 50%;
     position: absolute;
-    top: 18%;
+    top: 19%;
     width: 2px;
     transform-origin: bottom left;
 }
